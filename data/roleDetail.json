@@ -1,0 +1,397 @@
+{
+	"code": 200,
+	"msg": "请求成功",
+	"data": {
+		"role": {
+			"roleId": 1404,
+			"level": 80,
+			"breach": 5,
+			"roleName": "忌炎",
+			"roleIconUrl": "https://web-static.kurobbs.com/adminConfig/27/role_icon/1716031083655.png",
+			"rolePicUrl": "https://web-static.kurobbs.com/adminConfig/27/role_pic/1716384424535.png",
+			"starLevel": 5,
+			"attributeId": 4,
+			"attributeName": "气动",
+			"weaponTypeId": 1,
+			"weaponTypeName": "长刃",
+			"acronym": "jy",
+			"mapRoleId": None
+		},
+		"level": 80,
+		"chainList": [
+			{
+				"name": "济世",
+				"order": 1,
+				"description": "共鸣技能枪扫风定可使用次数增加1次。\n 施放共鸣技能枪扫风定时，消耗的【破阵值】减少15点。",
+				"iconUrl": "https://web-static.kurobbs.com/adminConfig/37/chain_icon/1716031081704.png",
+				"unlocked": False
+			}, {
+				"name": "通变",
+				"order": 2,
+				"description": "施放变奏技能攻其不备后，忌炎积攒30点【破阵值】，忌炎的攻击提升28%，持续15秒，每15秒可触发1次。",
+				"iconUrl": "https://web-static.kurobbs.com/adminConfig/37/chain_icon/1716031092977.png",
+				"unlocked": False
+			}, {
+				"name": "观势",
+				"order": 3,
+				"description": "施放共鸣技能枪扫风定、共鸣解放苍躣八荒·谋定、共鸣解放苍躣八荒·后动或变奏技能攻其不备时，忌炎的暴击提升16%、暴击伤害提升32%，持续8秒。",
+				"iconUrl": "https://web-static.kurobbs.com/adminConfig/37/chain_icon/1716030801369.png",
+				"unlocked": False
+			}, {
+				"name": "奇正",
+				"order": 4,
+				"description": "施放共鸣解放苍躣八荒·谋定 或共鸣解放苍躣八荒·后动时，队伍中的角色重击伤害加成提升25%，效果持续30秒。",
+				"iconUrl": "https://web-static.kurobbs.com/adminConfig/37/chain_icon/1716031573517.png",
+				"unlocked": False
+			}, {
+				"name": "明断",
+				"order": 5,
+				"description": "延奏技能 克己伤害倍率增加120%。\n 攻击命中目标时，忌炎的攻击提升3%，效果持续8秒，可叠加15层；施放变奏技能攻其不备后叠加至满层。",
+				"iconUrl": "https://web-static.kurobbs.com/adminConfig/37/chain_icon/1716031467350.png",
+				"unlocked": False
+			}, {
+				"name": "移山",
+				"order": 6,
+				"description": "每次使用重击、变奏技能攻其不备或共鸣技能枪扫风定时，获得1层【锐意之势】，最多可叠加2 层。\n 施放共鸣解放苍躣八荒·后动会消耗所有【锐意之势】，每层【锐意之势】使共鸣解放苍躣八荒·后动的伤害倍率提升120%。",
+				"iconUrl": "https://web-static.kurobbs.com/adminConfig/37/chain_icon/1716031128113.png",
+				"unlocked": False
+			}
+		],
+		"weaponData": {
+			"weapon": {
+				"weaponId": 21010074,
+				"weaponName": "纹秋",
+				"weaponType": 1,
+				"weaponStarLevel": 4,
+				"weaponIcon": "https://web-static.kurobbs.com/adminConfig/29/weapon_icon/1716030608698.png",
+				"weaponEffectName": "锋芒所向",
+				"effectDescription": "造成普攻或重击伤害时，攻击提升6.2%，可叠加5层，持续7秒，每1秒可触发1次。"
+			},
+			"level": 80,
+			"breach": 5,
+			"resonLevel": 2
+		},
+		"phantomData": {
+			"cost": 12,
+			"equipPhantomList": [
+				{
+					"phantomProp": {
+						"phantomPropId": 60000435,
+						"name": "飞廉之猩",
+						"phantomId": 6000043,
+						"quality": 5,
+						"cost": 4,
+						"iconUrl": "https://web-static.kurobbs.com/adminConfig/30/phantom_icon/1716031622642.png",
+						"skillDescription": "使用声骸技能，幻形为飞廉之猩进行踢击。如果踢击命中则会接续一记追击，踢击造成231.84% 气动伤害，追击造成283.36%气动伤害。\n 追击命中后，自身气动伤害加成提升12.00%，重击伤害加成提升12.00%，持续15秒。\n 技能 冷却：20秒"
+					},
+					"cost": 4,
+					"quality": 5,
+					"level": 25,
+					"fetterDetail": {
+						"groupId": 4,
+						"name": "啸谷长风",
+						"iconUrl": "https://web-static.kurobbs.com/adminConfig/31/element_group_pic/1716031197802.png",
+						"num": 5,
+						"firstDescription": "气动伤害提升10%",
+						"secondDescription": "使用变奏技能登场时，气动伤害提升30%，持续15秒"
+					},
+					"mainProps": [
+						{
+							"attributeName": "暴击",
+							"iconUrl": "https://web-static.kurobbs.com/adminConfig/66/phantom_attribute_icon/1723104107145.png",
+							"attributeValue": "22.0%"
+						}, {
+							"attributeName": "攻击",
+							"iconUrl": "https://web-static.kurobbs.com/adminConfig/66/phantom_attribute_icon/1723104120310.png",
+							"attributeValue": "150"
+						}
+					],
+					"subProps": [
+						{
+							"attributeName": "共鸣效率",
+							"iconUrl": None,
+							"attributeValue": "9.2%"
+						}, {
+							"attributeName": "攻击",
+							"iconUrl": None,
+							"attributeValue": "50"
+						}, {
+							"attributeName": "防御",
+							"iconUrl": None,
+							"attributeValue": "9.0%"
+						}, {
+							"attributeName": "暴击伤害",
+							"iconUrl": None,
+							"attributeValue": "15.0%"
+						}, {
+							"attributeName": "重击伤害加成",
+							"iconUrl": None,
+							"attributeValue": "8.6%"
+						}
+					]
+			}, {
+				"phantomProp": {
+					"phantomPropId": 60000465,
+					"name": "车刃 镰",
+					"phantomId": 6000046,
+					"quality": 5,
+					"cost": 3,
+					"iconUrl": "https://web-static.kurobbs.com/adminConfig/30/phantom_icon/1716032177588.png",
+					"skillDescription": "使用声骸技能，幻形为车刃镰，发动旋转冲击造成112.00%气动伤害，旋转冲击结束后 发动挥砍造成168.00%气动伤害。\n 技能冷却：15秒"
+				},
+				"cost": 3,
+				"quality": 5,
+				"level": 25,
+				"fetterDetail": {
+					"groupId": 4,
+					"name": "啸谷长风",
+					"iconUrl": "https://web-static.kurobbs.com/adminConfig/31/element_group_pic/1716031197802.png",
+					"num": 5,
+					"firstDescription": "气动伤害提升10%",
+					"secondDescription": "使用变奏技能登场时，气动伤害提升30%，持续15秒"
+				},
+				"mainProps": [{
+					"attributeName": "气动伤害加成",
+					"iconUrl": "https://web-static.kurobbs.com/adminConfig/66/phantom_attribute_icon/1723104239428.png",
+					"attributeValue": "30.0%"
+				}, {
+					"attributeName": "攻击",
+					"iconUrl": "https://web-static.kurobbs.com/adminConfig/66/phantom_attribute_icon/1723104120310.png",
+					"attributeValue": "100"
+				}],
+				"subProps": [{
+					"attributeName": "暴击",
+					"iconUrl": None,
+					"attributeValue": "6.3%"
+				}, {
+					"attributeName": "防御",
+					"iconUrl": None,
+					"attributeValue": "60"
+				}, {
+					"attributeName": "生命",
+					"iconUrl": None,
+					"attributeValue": "510"
+				}, {
+					"attributeName": "暴击伤害",
+					"iconUrl": None,
+					"attributeValue": "15.0%"
+				}, {
+					"attributeName": "普攻伤害加成",
+					"iconUrl": None,
+					"attributeValue": "9.4%"
+				}]
+			}, {
+				"phantomProp": {
+					"phantomPropId": 60000405,
+					"name": "戏猿",
+					"phantomId": 6000040,
+					"quality": 5,
+					"cost": 3,
+					"iconUrl": "https://web-static.kurobbs.com/adminConfig/30/phantom_icon/1716031650180.png",
+					"skillDescription": "使用声骸技能，幻形为戏猿挥掌攻击，造成268.20%气动伤害。\n 技能冷却：15秒"
+				},
+				"cost": 3,
+				"quality": 5,
+				"level": 25,
+				"fetterDetail": {
+					"groupId": 4,
+					"name": "啸谷长风",
+					"iconUrl": "https://web-static.kurobbs.com/adminConfig/31/element_group_pic/1716031197802.png",
+					"num": 5,
+					"firstDescription": "气动伤害提升10%",
+					"secondDescription": "使用变奏技能登场时，气动伤害提升30%，持续15秒"
+				},
+				"mainProps": [{
+					"attributeName": "气动伤害加成",
+					"iconUrl": "https://web-static.kurobbs.com/adminConfig/66/phantom_attribute_icon/1723104239428.png",
+					"attributeValue": "30.0%"
+				}, {
+					"attributeName": "攻击",
+					"iconUrl": "https://web-static.kurobbs.com/adminConfig/66/phantom_attribute_icon/1723104120310.png",
+					"attributeValue": "100"
+				}],
+				"subProps": [{
+					"attributeName": "重击伤害加成",
+					"iconUrl": None,
+					"attributeValue": "6.4%"
+				}, {
+					"attributeName": "暴击伤害",
+					"iconUrl": None,
+					"attributeValue": "21.0%"
+				}, {
+					"attributeName": "攻击",
+					"iconUrl": None,
+					"attributeValue": "50"
+				}, {
+					"attributeName": "共鸣技能伤害加成",
+					"iconUrl": None,
+					"attributeValue": "10.1%"
+				}, {
+					"attributeName": "共鸣解放伤害加成",
+					"iconUrl": None,
+					"attributeValue": "10.1%"
+				}]
+			}, {
+				"phantomProp": {
+					"phantomPropId": 60000385,
+					"name": "幼猿",
+					"phantomId": 6000038,
+					"quality": 5,
+					"cost": 1,
+					"iconUrl": "https://web-static.kurobbs.com/adminConfig/30/phantom_icon/1716031741751.png",
+					"skillDescription": "使用声骸技能，幻形为幼猿发 动前扑，造成48.00%+96气动伤害。\n 技能冷却：8秒"
+				},
+				"cost": 1,
+				"quality": 5,
+				"level": 25,
+				"fetterDetail": {
+					"groupId": 4,
+					"name": "啸谷长风",
+					"iconUrl": "https://web-static.kurobbs.com/adminConfig/31/element_group_pic/1716031197802.png",
+					"num": 5,
+					"firstDescription": "气动伤害提升10%",
+					"secondDescription": "使用变奏技能登场时，气动伤害提升30%，持续15秒"
+				},
+				"mainProps": [{
+					"attributeName": "攻击",
+					"iconUrl": "https://web-static.kurobbs.com/adminConfig/66/phantom_attribute_icon/1723104206127.png",
+					"attributeValue": "18.0%"
+				}, {
+					"attributeName": "生命",
+					"iconUrl": "https://web-static.kurobbs.com/adminConfig/66/phantom_attribute_icon/1723104266613.png",
+					"attributeValue": "2280"
+				}],
+				"subProps": [{
+					"attributeName": "普攻伤害加成",
+					"iconUrl": None,
+					"attributeValue": "10.1%"
+				}, {
+					"attributeName": "共鸣效率",
+					"iconUrl": None,
+					"attributeValue": "6.8%"
+				}, {
+					"attributeName": "暴击",
+					"iconUrl": None,
+					"attributeValue": "8.1%"
+				}, {
+					"attributeName": "攻击",
+					"iconUrl": None,
+					"attributeValue": "8.6%"
+				}, {
+					"attributeName": "攻击",
+					"iconUrl": None,
+					"attributeValue": "40"
+				}]
+			}, {
+				"phantomProp": {
+					"phantomPropId": 60000475,
+					"name": "啾啾河豚",
+					"phantomId": 6000047,
+					"quality": 5,
+					"cost": 1,
+					"iconUrl": "https://web-static.kurobbs.com/adminConfig/30/phantom_icon/1716032181164.png",
+					"skillDescription": "使用声骸技能，召唤啾啾河豚，鼓气并向前喷 气3次，每次造成38.40%气动伤害并提供击退效果。\n 技能冷却：8秒"
+				},
+				"cost": 1,
+				"quality": 5,
+				"level": 25,
+				"fetterDetail": {
+					"groupId": 4,
+					"name": "啸谷长风",
+					"iconUrl": "https://web-static.kurobbs.com/adminConfig/31/element_group_pic/1716031197802.png",
+					"num": 5,
+					"firstDescription": "气动伤害提升10%",
+					"secondDescription": "使用变奏技能登场时，气动伤害提升30%，持续15秒"
+				},
+				"mainProps": [{
+					"attributeName": "攻击",
+					"iconUrl": "https://web-static.kurobbs.com/adminConfig/66/phantom_attribute_icon/1723104206127.png",
+					"attributeValue": "18.0%"
+				}, {
+					"attributeName": "生命",
+					"iconUrl": "https://web-static.kurobbs.com/adminConfig/66/phantom_attribute_icon/1723104266613.png",
+					"attributeValue": "2280"
+				}],
+				"subProps": [{
+					"attributeName": "普攻伤害加成",
+					"iconUrl": None,
+					"attributeValue": "7.9%"
+				}, {
+					"attributeName": "暴击",
+					"iconUrl": None,
+					"attributeValue": "7.5%"
+				}, {
+					"attributeName": "共鸣解放伤害加成",
+					"iconUrl": None,
+					"attributeValue": "6.4%"
+				}, {
+					"attributeName": "攻击",
+					"iconUrl": None,
+					"attributeValue": "40"
+				}, {
+					"attributeName": "攻击",
+					"iconUrl": None,
+					"attributeValue": "10.1%"
+				}]
+			}]
+		},
+		"skillList": [
+            {
+                "skill": {
+                    "id": 177,
+                    "type": "常态攻击",
+                    "name": "孤枪止戈",
+                    "description": "普攻\n进行至多5段的连续攻击 ，造成气动伤害。\n\n重击\n消耗耐力进行突刺攻击，造成气动伤害。\n\n重击·凌空击\n若在重击期间按住普攻，会在重击结束后施放 凌空击，造成气动伤害。\n\n重击·潜渊斩\n若在重击期间松开普攻，会在重击结束后施放潜渊斩，造成气动伤害。\n\n空中攻击\n消耗 耐力进行空中下落攻击，造成气动伤害。\n在下落攻击后一定时间内短按普攻，将会追击目标，造成气动伤害。\n\n空中攻击·长空不坠\n施放重击凌空击或在空中施放共鸣技能枪扫风定一定时间内，可以进行浮空攻击，造成气动伤害。\n\n闪避反击\n成功闪避后一定时间 内短按普攻，将会攻击目标，造成气动伤害。",
+                    "iconUrl": "https://web-static.kurobbs.com/adminConfig/36/role_skill_icon/1716031428826.png"
+                },
+                "level": 7
+            }, {
+                "skill": {
+                    "id": 178,
+                    "type": "共鸣技能",
+                    "name": "枪扫风定",
+                    "description": "向前突进一 定距离，造成气动伤害。\n\n可在空中施放。",
+                    "iconUrl": "https://web-static.kurobbs.com/adminConfig/36/role_skill_icon/1716031412934.png"
+                },
+                "level": 7
+            }, {
+                "skill": {
+                    "id": 179,
+                    "type": "共鸣解放",
+                    "name": "苍躣八荒·谋定",
+                    "description": "施放苍躣八荒·谋定后，忌炎进入破阵状态。\n\n破阵状态\n·忌炎的抗打断能力提升;\n·普攻、重击和闪避反击替换为重击破阵之枪。\n\n重击·破阵之枪\n进行最多3段的连续攻击，造成气动伤害，此次伤害为重击伤害。",
+                    "iconUrl": "https://web-static.kurobbs.com/adminConfig/36/role_skill_icon/1716031293796.png"
+                },
+                "level": 8
+            }, {
+                "skill": {
+                    "id": 182,
+                    "type": "变奏技能",
+                    "name": "攻其不备",
+                    "description": "忌炎手持长枪，自空中刺向目标，造成气动伤害。",
+                    "iconUrl": "https://web-static.kurobbs.com/adminConfig/36/role_skill_icon/1716031653935.png"
+                },
+                "level": 6
+            }, {
+                "skill": {
+                    "id": 183,
+                    "type": "共鸣回路",
+                    "name": "苍龙破阵",
+                    "description": "施放共鸣技能枪扫风定时，若积攒30点以上【破阵值】，则消耗30点【破阵值】，此次共鸣技能枪扫风定伤害提升20%。\n处 于破阵状态时，共鸣技能枪扫风定伤害提升20%，且不再消耗【破阵值】。\n\n共鸣解放·苍躣八荒·后动\n施放共鸣解放苍躣八荒·谋定时，若积攒30点以上【破阵值】，则消耗30点【破阵值】，施放苍躣八荒·后动，造成气动伤害，此次伤害为重击伤害。\n可在低空中施放 苍躣八荒·后动。\n\n破阵值的获取规则\n【破阵值】上限60点。\n常态攻击孤枪止戈命中目标时积攒【破阵值】。\n变奏技能攻其不备 命中目标时积攒【破阵值】。\n若在15秒内，忌炎没有命中目标，【破阵值】会逐渐减少。",
+                    "iconUrl": "https://web-static.kurobbs.com/adminConfig/36/role_skill_icon/1716031446000.png"
+                },
+                "level": 8
+            }, {
+                "skill": {
+                    "id": 184,
+                    "type": "延奏技能",
+                    "name": "克己",
+                    "description": "下一位登场角色（或附近队伍中激活延奏技能的角色）重击命中目标时，忌炎将召唤长枪协同攻击，造成忌 炎313.40%攻击的气动伤害，该协同攻击效果持续8秒，每1秒可触发1次，最多可触发2次。",
+                    "iconUrl": "https://web-static.kurobbs.com/adminConfig/36/role_skill_icon/1716030921761.png"
+                },
+                "level": 1
+            }
+        ]
+	},
+	"success": True
+} 
